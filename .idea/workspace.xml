@@ -1,50 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef84b438-ed23-46f7-8789-728e6f94cad4" name="Default Changelist" comment="" />
+    <list default="true" id="ef84b438-ed23-46f7-8789-728e6f94cad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPARQL2NL/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPARQL2NL/src/test/resources/english.lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/src/main/resources/wordnet/linux/dict/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/DocumentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/DocumentGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/TripleConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/TripleConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/DefaultIRIConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/DefaultIRIConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/IRIConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/IRIConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/LiteralConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/LiteralConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/SimpleIRIConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/SimpleIRIConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/URIDereferencer$DereferencingFailedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/URIDereferencer$DereferencingFailedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/URIDereferencer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/converter/URIDereferencer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/FunctionalityDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/FunctionalityDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/SPARQLFunctionalityDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/SPARQLFunctionalityDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/SimpleFunctionalityDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/SimpleFunctionalityDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/StatisticalFunctionalityDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/functionality/StatisticalFunctionalityDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DBpediaGenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DBpediaGenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DelegateGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DelegateGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DictionaryBasedGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/DictionaryBasedGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderAPIGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderAPIGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GeneralGenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/GeneralGenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/TypeAwareGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/gender/TypeAwareGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/StanfordCoreNLPWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/StanfordCoreNLPWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/TreeTager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/TreeTager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/relation/BoaPatternSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/relation/BoaPatternSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/relation/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/relation/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/stemming/PlingStemmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/nlp/stemming/PlingStemmer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PredicateAsNounConversionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PredicateAsNounConversionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalization.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalizationType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalizationType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/property/PropertyVerbalizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/GenericType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/GenericType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/PennTreebankTagSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/PennTreebankTagSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/Preposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/Preposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/TripleComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/classes/org/aksw/triple2nl/util/TripleComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/classes/wordnet/linux/dict/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/test-classes/org/aksw/triple2nl/LiteralConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/test-classes/org/aksw/triple2nl/LiteralConverterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Triple2NL/target/test-classes/org/aksw/triple2nl/TripleConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Triple2NL/target/test-classes/org/aksw/triple2nl/TripleConverterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assess/src/main/resources/assess_config_dbpedia.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assess/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assess/src/main/webapp/WEB-INF/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarization.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationModelGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationModelGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/EntitySummarizationTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/SPARQLQueryProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/SPARQLQueryProcessor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/SPARQLQueryProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/SPARQLQueryProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/Verbalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/Verbalizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/BorderFlowX.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/BorderFlowX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/ClusteringAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/ClusteringAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/PropertyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/PropertyNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/WeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/WeightedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/AverageWeightClusterHardening.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/AverageWeightClusterHardening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/Hardening.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/Hardening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/HardeningFactory$HardeningType.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/HardeningFactory$HardeningType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/HardeningFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/HardeningFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/LargestClusterHardening.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/LargestClusterHardening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/SmallestClusterHardening.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/clustering/hardening/SmallestClusterHardening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator$Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator$Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/CachedDatasetBasedGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$Cooccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$Cooccurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/DatasetBasedGraphGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/PropertySimilarityCorrelation.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dataset/PropertySimilarityCorrelation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DBpediaDumpProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DBpediaDumpProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DumpProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DumpProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DumpStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/DumpStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/LogEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/LogEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/LogEntryGrouping.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/dump/LogEntryGrouping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/exceptions/NoGraphAvailableException.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/exceptions/NoGraphAvailableException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DBpediaGenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DBpediaGenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DelegateGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DelegateGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DictionaryBasedGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/DictionaryBasedGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderAPIGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderAPIGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GeneralGenderDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/GeneralGenderDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/LexiconBasedGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/LexiconBasedGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/TypeAwareGenderDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/gender/TypeAwareGenderDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rouge/Rouge.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rouge/Rouge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rouge/SimplePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rouge/SimplePair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/DateLiteralFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/DateLiteralFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/NumericLiteralFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/NumericLiteralFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/ObjectMergeRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/ObjectMergeRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/PredicateMergeRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/PredicateMergeRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/SubjectMergeRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/rules/SubjectMergeRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/statistics/ChiSquaredStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/statistics/ChiSquaredStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/statistics/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/statistics/Stats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/util/DBpediaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/util/DBpediaFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/util/DBpediaTimeRelatedPropertiesFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/classes/org/aksw/avatar/util/DBpediaTimeRelatedPropertiesFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/DBpediaPropertyAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/DBpediaPropertyAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/EntitySummarizationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/EntitySummarizationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/Evaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/Evaluation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/VerbalizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/VerbalizerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/gender/GenderAPIGenderDetectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/avatar/target/test-classes/org/aksw/avatar/gender/GenderAPIGenderDetectorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/AvatarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/AvatarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/Sparql2NLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/Sparql2NLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/Triple2NLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/classes/org/aksw/controller/Triple2NLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ABoxModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/DataValueGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/DataValueGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ExamplesGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/ExamplesGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/IndividualGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/target/classes/org/aksw/semweb2nl/evaluation/IndividualGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLAxiomConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLAxiomConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLClassExpressionConverter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLClassExpressionConverter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLClassExpressionConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/OWLClassExpressionConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/exception/OWLAxiomConversionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/classes/org/aksw/owl2nl/exception/OWLAxiomConversionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/OWLClassExpressionConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/OWLClassExpressionConverterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/evaluation/HTMLTableGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/evaluation/HTMLTableGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/evaluation/OWLAxiomConversionEvaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/owl2nl/target/test-classes/org/aksw/owl2nl/evaluation/OWLAxiomConversionEvaluation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resttest/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resttest/src/main/java/resttest/Resource1.java" beforeDir="false" afterPath="$PROJECT_DIR$/resttest/src/main/java/resttest/Resource1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W1qMuUgPPMwirGnnnoPBuGkAFL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resttest/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="server1" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="adminPort" value="8005" />
-      <option name="ajpPort" value="8009" />
+      <option name="adminPort" value="7005" />
       <option name="allowRunningInParallel" value="false" />
       <option name="contextPath" value="/resttest" />
-      <option name="customContext" value="" />
-      <option name="docBase" value="C:\Users\1355001\Downloads\LD2NL-master\resttest\src\main\webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
+      <option name="docBase" value="C:\Users\libra\Old_Version\resttest\src\main\webapp" />
+      <option name="envOptions" />
       <option name="moduleName" />
       <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
+      <option name="port" value="7000" />
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat 8.5.50" />
           <option name="number" value="0" />
-          <option name="path" value="C:\apache-tomcat-8.5.50" />
+          <option name="path" value="C:\Users\libra\apache-tomcat-8.5.50" />
           <option name="version" value="8.5.50.0" />
         </TomcatInfo>
       </option>
@@ -53,18 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,33 +193,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1780" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578327991092">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590960394815">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1780" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578327991092" />
-    <state x="2106" y="273" key="FileChooserDialogImpl" timestamp="1578327987569">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590960394815" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1590957671056">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2106" y="273" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578327987569" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1578328836158">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590957671056" />
+    <state width="739" height="210" key="GridCell.Tab.0.bottom" timestamp="1591154383948">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578328836158" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1578328836156">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1478" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590981347629" />
+    <state width="739" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591154383948" />
+    <state width="739" height="210" key="GridCell.Tab.0.center" timestamp="1591154383948">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578328836156" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1578328836156">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1478" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590981347629" />
+    <state width="739" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591154383948" />
+    <state width="739" height="210" key="GridCell.Tab.0.left" timestamp="1591154383947">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578328836156" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1578328836157">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1478" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590981347628" />
+    <state width="739" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591154383947" />
+    <state width="739" height="210" key="GridCell.Tab.0.right" timestamp="1591154383948">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578328836157" />
-    <state x="2021" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1578327457827">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2021" y="342" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578327457827" />
+    <state width="1478" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1590981347629" />
+    <state width="739" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591154383948" />
   </component>
 </project>

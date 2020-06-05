@@ -41,18 +41,18 @@ public class Resource1 {
     	return "hello world";
     }
     */
-    @Path("/getinfo")
+    @Path("/getinfold")
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getInfo(@QueryParam("Class")String classname,@QueryParam("Subject")String sname){
+    public String getInfo(@QueryParam("Subject")String sname){
 
-        OWLClass cls = new OWLClassImpl(IRI.create("http://dbpedia.org/ontology/"+classname));
+       // OWLClass cls = new OWLClassImpl(IRI.create("http://dbpedia.org/ontology/"+classname));
 
         //define the entity to summarize
         OWLIndividual ind = new OWLNamedIndividualImpl(IRI.create("http://dbpedia.org/resource/"+sname));
 
         //compute summarization of the entity and verbalize it
-        String summary = verbalizer.summarize(ind, cls);
+        String summary = verbalizer.summarize(ind);
 
         return summary;
 
